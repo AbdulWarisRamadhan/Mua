@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereal Beauty | Professional MUA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-[#faf9f6] text-[#333]">
+
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center px-10 py-6 absolute w-full z-10">
+        <div class="text-2xl font-serif tracking-widest">ETHEREAL</div>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+            <a href="#" class="hover:text-stone-500 transition">Home</a>
+            <a href="#services" class="hover:text-stone-500 transition">Services</a>
+            <a href="#portfolio" class="hover:text-stone-500 transition">Gallery</a>
+            <a href="#contact" class="hover:text-stone-500 transition">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=2087&auto=format&fit=crop')] bg-cover bg-center relative">
+        <div class="absolute inset-0 bg-white/40"></div>
+        <div class="relative animate__animated animate__fadeInUp">
+            <span class="uppercase tracking-[0.3em] text-xs mb-4 block">Professional Makeup Artist</span>
+            <h1 class="text-5xl md:text-7xl mb-6">Menciptakan Kecantikan <br><span class="italic">Abadi Anda</span></h1>
+            <a href="#contact" class="mt-8 inline-block px-10 py-4 bg-[#333] text-white text-sm uppercase tracking-widest hover:bg-stone-700 transition">Tentukan Jadwal</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-24 px-10 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl mb-4">Layanan Kami</h2>
+            <div class="w-16 h-[1px] bg-stone-400 mx-auto"></div>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-12 text-center">
+            <div class="p-8 border border-stone-100 hover:shadow-xl transition duration-500">
+                <h3 class="font-serif text-2xl mb-4">Bridal Makeup</h3>
+                <p class="text-sm text-stone-500 leading-relaxed">Sentuhan elegan untuk hari paling bersejarah dalam hidup Anda.</p>
+            </div>
+            <div class="p-8 border border-stone-100 hover:shadow-xl transition duration-500">
+                <h3 class="font-serif text-2xl mb-4">Graduation</h3>
+                <p class="text-sm text-stone-500 leading-relaxed">Tampil memukau dan fresh di momen perayaan kelulusan Anda.</p>
+            </div>
+            <div class="p-8 border border-stone-100 hover:shadow-xl transition duration-500">
+                <h3 class="font-serif text-2xl mb-4">Special Event</h3>
+                <p class="text-sm text-stone-500 leading-relaxed">Pesta, photoshoot, atau acara formal dengan gaya yang disesuaikan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Simple Grid -->
+    <section id="portfolio" class="bg-white py-24 px-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=2071&auto=format&fit=crop" class="grayscale hover:grayscale-0 transition duration-700 aspect-square object-cover">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1935&auto=format&fit=crop" class="grayscale hover:grayscale-0 transition duration-700 aspect-square object-cover">
+            <img src="https://images.unsplash.com/photo-1526045431048-f857369aba09?q=80&w=2070&auto=format&fit=crop" class="grayscale hover:grayscale-0 transition duration-700 aspect-square object-cover">
+            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=2070&auto=format&fit=crop" class="grayscale hover:grayscale-0 transition duration-700 aspect-square object-cover">
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="py-20 bg-[#f4f1ea] text-center px-10">
+        <h2 class="font-serif text-3xl mb-8">Siap tampil cantik?</h2>
+        <p class="mb-8 text-stone-600">Hubungi kami via WhatsApp untuk konsultasi dan booking.</p>
+        <a href="https://wa.me/yournumber" class="border-b border-stone-800 pb-2 hover:text-stone-500 transition uppercase tracking-widest text-sm">Send a Message</a>
+        <div class="mt-20 text-[10px] uppercase tracking-[0.5em] text-stone-400">
+            &copy; 2026 Ethereal Beauty. Malang, Indonesia.
+        </div>
+    </footer>
+
+</body>
+</html>
